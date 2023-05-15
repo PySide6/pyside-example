@@ -7,5 +7,5 @@ label = QLabel()
 label.setText('标签')
 ```
 以下为常用的属性
-- alignment
-  - 
+- alignment 文本标签中的内容方向
+- hasSelectedText 标签中是否有选中的文本
