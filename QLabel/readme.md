@@ -1,15 +1,11 @@
 ## QLabel
+一个简单的标签控件，常用来显示文本，超链接，或者图片。
 
-
-### label 属性
-- alignment: label 中文本的对齐方式
-  - Qt.Alignment.AlignCenter 居中对齐
-  - Qt.Alignment.AlignBottom 底部对齐
-  - Qt.Alignment.AlignTop 顶部对齐
-  - Qt.Alignment.AlignLeft 左边对齐
-  - Qt.Alignment.AlignRight 右边对齐
-
-### 普通样式
-运行 normal_label.py
-
-在弹出来的窗口中展示一个普通的文本信息
+## 使用方式
+```python
+label = QLabel()
+label.setText('标签')
+```
+以下为常用的属性
+- alignment 文本标签中的内容方向
+- hasSelectedText 标签中是否有选中的文本
